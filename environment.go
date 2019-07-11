@@ -29,6 +29,7 @@ func (e *environment) Put(key string, val interface{}) error {
 		return ErrorKeyIsZeroLength
 	}
 	e.objects[key] = val
+	return nil
 }
 
 func (e *environment) Get(key string) interface{} {
