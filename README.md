@@ -1,2 +1,2 @@
 # context
-Go context extension library
+Go based application environmental context library
