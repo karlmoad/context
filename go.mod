@@ -1,3 +1,3 @@
-module koad.io/environment
+module github.com/karlmoad/context
 
 go 1.12
